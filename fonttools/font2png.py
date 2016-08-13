@@ -46,6 +46,7 @@ import ImageFont, ImageDraw, Image
 
 FONT_SIZE = 100
 FONT_FILE_PATH = "resources/fonts/nevis.ttf"
+FONT_FILE_PATH = "resources/fonts/BLADRMF_.TTF"
 
 OUTPUT_IMAGE_FILEPATH_TEMPLATE = "resources/images/num_%d.png"
 
@@ -67,7 +68,7 @@ META_DATA_TEMPLATE = \
 
 meta_data_entries = []
 
-print('path: %r size: %r' %(FONT_FILE_PATH, FONT_SIZE))
+#print('path: %r size: %r' %(FONT_FILE_PATH, FONT_SIZE))
 font = ImageFont.truetype(FONT_FILE_PATH, FONT_SIZE)
 
 

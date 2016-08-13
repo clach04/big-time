@@ -48,7 +48,9 @@ FONT_SIZE = 100
 FONT_FILE_PATH = "resources/fonts/nevis.ttf"
 FONT_FILE_PATH = "resources/fonts/BLADRMF_.TTF"
 
-OUTPUT_IMAGE_FILEPATH_TEMPLATE = "resources/images/num_%d.png"
+OUTPUT_IMAGE_FILEPATH_TEMPLATE = "resources/images/num_%d~rect.png"
+# TODO round
+
 
 
 TILE_WIDTH_PIXELS = 144/2

@@ -45,9 +45,9 @@
 import ImageFont, ImageDraw, Image
 
 FONT_SIZE = 100
-FONT_FILE_PATH = "resources/src/fonts/nevis.ttf"
+FONT_FILE_PATH = "resources/fonts/nevis.ttf"
 
-OUTPUT_IMAGE_FILEPATH_TEMPLATE = "resources/src/images/num_%d.png"
+OUTPUT_IMAGE_FILEPATH_TEMPLATE = "resources/images/num_%d.png"
 
 
 TILE_WIDTH_PIXELS = 144/2
@@ -67,6 +67,7 @@ META_DATA_TEMPLATE = \
 
 meta_data_entries = []
 
+print('path: %r size: %r' %(FONT_FILE_PATH, FONT_SIZE))
 font = ImageFont.truetype(FONT_FILE_PATH, FONT_SIZE)
 
 
